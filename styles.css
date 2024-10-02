@@ -1,0 +1,57 @@
+/* 
+    Base styling for the body to set font, alignment, and padding
+*/
+body {
+    font-family: Arial, sans-serif; /* [Customize font family here] */
+    text-align: center; /* [Customize text alignment here] */
+    padding: 50px; /* [Customize padding here] */
+    background-color: #f9f9f9; /* [Customize background color here] */
+}
+
+/* 
+    Styling for the main heading
+*/
+h1 {
+    color: #333; /* [Customize heading color here] */
+    font-size: 2.5em; /* [Customize heading size here] */
+    margin-bottom: 20px; /* [Customize margin here] */
+}
+
+/* 
+    Styling for the paragraph text
+*/
+p {
+    color: #666; /* [Customize paragraph color here] */
+    font-size: 1.2em; /* [Customize paragraph size here] */
+    margin-bottom: 30px; /* [Customize margin here] */
+}
+
+/* 
+    Styling for the action button
+*/
+button {
+    padding: 10px 20px; /* [Customize button padding here] */
+    font-size: 1em; /* [Customize button font size here] */
+    color: #fff; /* [Customize button text color here] */
+    background-color: #007BFF; /* [Customize button background color here] */
+    border: none; /* [Customize button border here] */
+    border-radius: 5px; /* [Customize button border radius here] */
+    cursor: pointer; /* [Customize cursor on hover here] */
+    transition: background-color 0.3s ease; /* [Customize button transition here] */
+}
+
+/* 
+    Hover effect for the action button
+*/
+button:hover {
+    background-color: #0056b3; /* [Customize hover background color here] */
+}
+
+/* 
+    Styling for the click counter display
+*/
+#click-count {
+    color: #333; /* [Customize counter text color here] */
+    font-size: 1.1em; /* [Customize counter text size here] */
+    margin-top: 20px; /* [Customize margin above counter here] */
+}
