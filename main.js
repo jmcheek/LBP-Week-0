@@ -39,11 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // 
         // Update the click counter display with the new count
         //
-        clickCountDisplay.textContent = `Button clicked ${clickCount} ${timeText}.`;
+        clickCountDisplay.textContent = `Button poked ${clickCount} ${timeText}.`;
 
         // 
         // Log the button click to the console
         //
-        console.log(`The action button was clicked ${clickCount} ${timeText}.`);
+        console.log(`The action button was poked ${clickCount} ${timeText}.`);
     });
 });
